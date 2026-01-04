@@ -560,9 +560,9 @@ textarea {
 }
 
 .header__location {
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   color: #666;
-  font-weight: 400;
+  font-weight: 500;
   margin-top: 2px;
   letter-spacing: 0.5px; 
 }
