@@ -180,8 +180,8 @@ textarea {
     .text-primary {
       font-size: 2rem; } }
 .text-focus {
-  color: #555 !important; /* Muted professional grey */
-  font-size: 1.6rem;      /* Slightly smaller than the main text */
+  color: #fff !important; /* Muted professional grey */
+  font-size: 2.2rem;      /* Slightly smaller than the main text */
   margin-top: 1.5rem;    /* Creates a clean gap from the paragraph above */
   font-weight: 500;
   line-height: 1.6;
@@ -189,10 +189,10 @@ textarea {
 }
 
 .text-focus strong {
-  color: #222;           /* Makes the label 'Focus' slightly bolder/darker */
+  color: #fff;           /* Makes the label 'Focus' slightly bolder/darker */
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: 1.4rem;
+  font-size: 2.2rem;
 }
 .d-none {
   display: none; }
@@ -202,7 +202,7 @@ textarea {
   background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg);
   background-position: center;
   height: auto;
-  min-height: 50rem;
+  min-height: 55rem;
   max-height: none;
   position: relative; }
   @media only screen and (max-width: 37.5em) {
