@@ -666,9 +666,14 @@ textarea {
     line-height: 1.7; }
   .main-footer__social-cont {
     margin-top: 2rem; }
-  .main-footer__icon {
+.main-footer__icon {
     margin-right: 1rem;
-    width: 2.5rem; }
+    width: 12rem;           /* Increased from 2.5rem */
+    height: 12rem;          /* Added height to make it a square ID shape */
+    border-radius: 0.5rem;  /* Optional: slightly rounded corners like an ID card */
+    object-fit: cover;      /* Keeps the image aspect ratio perfect */
+    border: 2px solid #eee; /* Optional: adds a subtle frame */
+}
     .main-footer__icon--mr-none {
       margin-right: 0; }
   .main-footer__lower {
